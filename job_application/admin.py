@@ -9,4 +9,5 @@ class FormAdmin(admin.ModelAdmin):
     ordering = ("first_name", )
     readonly_fields = ("occupation", )
 
+
 admin.site.register(Form, FormAdmin)
